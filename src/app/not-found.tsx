@@ -2,8 +2,7 @@ import Block from "~/components/Block";
 import { Code } from "~/components/Code";
 
 /**
- * We don't expect this file to ever get hit
- * because each subfolder should handle it's own errors in its own layouts.
+ * This file will only ever get hit if a wrong locale or no locale is given.
  */
 export default function NotFound() {
   return (
